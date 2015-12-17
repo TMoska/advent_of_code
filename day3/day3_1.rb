@@ -1,3 +1,5 @@
+# http://adventofcode.com/day/3
+
 position = [0,0]
 unique_positions = [[0,0]]
 File.open("input.txt", "r") do |f|

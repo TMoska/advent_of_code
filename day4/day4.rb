@@ -1,3 +1,5 @@
+# http://adventofcode.com/day/4
+
 require 'digest/md5'
 guess_Hash = 'iwrupvqb'
 looking_for = '00000'

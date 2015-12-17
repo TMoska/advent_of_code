@@ -1,3 +1,5 @@
+# http://adventofcode.com/day/2
+
 total_sum1 = total_sum2 = 0;
 File.open("input.txt", "r") do |f|
   f.each_line do |line|

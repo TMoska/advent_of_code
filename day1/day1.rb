@@ -1,3 +1,5 @@
+# http://adventofcode.com/day/1
+
 sum = 0
 File.open("input.txt", "r"){|f|
   entered_basement = false

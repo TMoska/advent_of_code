@@ -1,3 +1,5 @@
+# http://adventofcode.com/day/3
+
 def move obj, vertical, positive
   if vertical
     return [obj[0], positive ? obj[1]+1 : obj[1]-1]
