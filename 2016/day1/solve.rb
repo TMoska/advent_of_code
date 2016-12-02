@@ -3,4 +3,5 @@
 
 require_relative 'run.rb'
 
-puts solve_d1("../input.txt")
+puts "Part 1 solution is: " + solve_d1_1("../input.txt").to_s
+puts "Part 2 solution is: " + solve_d1_2("../input.txt").to_s

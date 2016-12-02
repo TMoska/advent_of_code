@@ -1,12 +1,15 @@
 require_relative '../day1/run.rb'
 RSpec.describe "Day 1" do
-  it "solves test 1" do
-    expect(solve_d1("../../spec/test_inputs/d1/1.txt")).to eq 5
+  it "solves p1t1" do
+    expect(solve_d1_1("../../spec/test_inputs/d1/p1t1.txt")).to eq 5
   end
-  it "solves test 2" do
-    expect(solve_d1("../../spec/test_inputs/d1/2.txt")).to eq 2
+  it "solves p1t2" do
+    expect(solve_d1_1("../../spec/test_inputs/d1/p1t2.txt")).to eq 2
   end
-  it "solves test 3" do
-    expect(solve_d1("../../spec/test_inputs/d1/3.txt")).to eq 12
+  it "solves p1t3" do
+    expect(solve_d1_1("../../spec/test_inputs/d1/p1t3.txt")).to eq 12
+  end
+  it "solves p2t1" do
+    expect(solve_d1_2("../../spec/test_inputs/d1/p2t1.txt")).to eq 4
   end
 end
