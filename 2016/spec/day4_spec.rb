@@ -12,7 +12,7 @@ RSpec.describe "Day 4" do
 	it "identifies a not real room" do
 		expect(is_real("totally-real-room-200[decoy]")).to eq false
 	end
-	if "returns a correct answer" do
-		expect(solve_d4_1("../../spec/test_inputs/d4/p1t1.txt").to eq 1514
+	it "returns a correct answer" do
+		expect(solve_d4_1("../../spec/test_inputs/d4/p1t1.txt")).to eq 1514
 	end
 end
